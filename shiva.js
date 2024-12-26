@@ -62,15 +62,23 @@ function takeCommand(message){
         speak("Opening Google...")
     }
     else if(message.includes("who is your boss")){
-        speak("my boss is mister shivam shukla");
+        speak("my boss is mister Shivanshu Tiwari");
     }
     
     else if(message.includes("open youtube")){
         window.open("https://youtube.com", "_blank");
         speak("Opening Youtube...")
     }
+    else if(message.includes("open twitter")){
+        window.open("https://www.twitter.com", "_blank");
+        speak("Opening twitter...")
+    }
+     else if(message.includes("open instagram")){
+        window.open("https://www.instagram.com", "_blank");
+        speak("Opening instagram...")
+    }
     else if(message.includes("open facebook")){
-        window.open("https://facebook.com", "_blank");
+        window.open("https://www.facebook.com", "_blank");
         speak("Opening Facebook...")
     }
 
